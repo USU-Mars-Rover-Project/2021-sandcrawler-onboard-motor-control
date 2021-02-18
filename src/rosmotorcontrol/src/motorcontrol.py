@@ -173,7 +173,7 @@ ser = serial.Serial(serPort, baudRate)
 print ("Serial port " + serPort + " opened  Baudrate " + str(baudRate))
 
 #Config for how fast the motors spin, choose a number between 0 and 100
-speed = 50
+speed = 100
 
 #Variable default initialization
 startMarker = 60
